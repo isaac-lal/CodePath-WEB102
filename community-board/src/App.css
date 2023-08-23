@@ -1,0 +1,27 @@
+.card {
+  margin: 30px;
+  padding: 3%;
+  background-color: beige;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Card-Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+}
+
+.view-restaurant {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
