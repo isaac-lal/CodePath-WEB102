@@ -1,6 +1,6 @@
 # Web Development Project 2 - Flashcards! Part 1
 
-Submitted by: Maxim Voyevoda
+Submitted by: Isaac Lal
 
 This web app: Learn Italian - Flashcards!
 
@@ -40,7 +40,7 @@ N/A
 
 ## License
 
-    Copyright 2023 Maxim Voyevoda
+    Copyright 2023 Isaac Lal
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
