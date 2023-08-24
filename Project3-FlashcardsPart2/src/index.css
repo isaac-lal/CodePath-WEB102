@@ -69,7 +69,7 @@ button:focus-visible {
 }
 
 body {
-  background-image: url("./src/assets/roman_ruins.jpeg");
+  background-image: url('./src/assets/roman_ruins.jpeg');
   background-size: cover;
   color: black;
 }

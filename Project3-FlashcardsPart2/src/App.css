@@ -59,8 +59,6 @@
   cursor: pointer;
 }
 
-
-
 .read-the-docs {
   color: #888;
 }
@@ -89,9 +87,7 @@
   margin: 10px;
 }
 
-.back-btn, .next-btn {
+.back-btn,
+.next-btn {
   margin: 5px;
 }
-
-
-
