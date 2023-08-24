@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar({ showAddPost }) {
   return (
     <nav>
-      <Link to="/">
+      <Link to='/'>
         <h1>POST!</h1>
       </Link>
       {showAddPost && (
-        <Link to="/add-post">
+        <Link to='/add-post'>
           <button>Add Post</button>
         </Link>
       )}

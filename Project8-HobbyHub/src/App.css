@@ -110,7 +110,6 @@ button {
   background-color: #1877f2;
 }
 
-
 /* Form styles */
 form {
   display: flex;
@@ -163,7 +162,7 @@ form button:hover {
   font-size: 20px;
 }
 
-.edit-form input{
+.edit-form input {
   font-size: 20px;
   width: 450px;
 }
