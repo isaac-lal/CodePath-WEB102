@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [photo, setPhoto] = useState(null);
   const [bannedAttributes, setBannedAttributes] = useState([]);
-  const apiKey = 'aVGRQld9RM0MxMTxAySql0ytPn8PPM7sK7VtLNCe';
+  const apiKey = import.meta.env.API_KEY;
   const rover = 'curiosity';
   const sol = 1000;
 

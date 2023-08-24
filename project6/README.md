@@ -1,6 +1,6 @@
 # Web Development Project 6 - Data Dashboard Part 2
 
-Submitted by: Maxim Voyevoda
+Submitted by: Isaac Lal
 
 This web app: Pet Browser
 
@@ -35,7 +35,7 @@ GIF created with GIPHYCAPTURE
 
 ## License
 
-    Copyright 2023 Maxim Voyevoda
+    Copyright 2023 Isaac Lal
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
