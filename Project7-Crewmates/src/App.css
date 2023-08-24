@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -25,13 +25,13 @@ form {
   align-items: center;
 }
 
-input[type="text"],
-input[type="radio"] {
+input[type='text'],
+input[type='radio'] {
   margin-bottom: 1rem;
   color: #333;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -47,7 +47,7 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-input[type="radio"]:checked:before {
+input[type='radio']:checked:before {
   content: '\2713';
   font-size: 1.2em;
   line-height: 1;
@@ -136,12 +136,10 @@ li span {
 }
 
 .top:before {
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
-
-
