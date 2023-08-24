@@ -1,12 +1,12 @@
-import React, { useEffect, useRef } from "react";
-import { Bar } from "react-chartjs-2";
+import React, { useEffect, useRef } from 'react';
+import { Bar } from 'react-chartjs-2';
 import {
   Chart,
   BarElement,
   BarController,
   CategoryScale,
   LinearScale,
-} from "chart.js";
+} from 'chart.js';
 
 Chart.register(BarElement, BarController, CategoryScale, LinearScale);
 
@@ -25,16 +25,10 @@ const GenderFrequencyBarChart = ({ data }) => {
     labels: data.map((d) => d.gender),
     datasets: [
       {
-        label: "Frequency",
+        label: 'Frequency',
         data: data.map((d) => d.frequency),
-        backgroundColor: [
-          "rgba(75, 192, 192, 0.2)",
-          "rgba(255, 99, 132, 0.2)",
-        ],
-        borderColor: [
-          "rgba(75, 192, 192, 1)",
-          "rgba(255, 99, 132, 1)",
-        ],
+        backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+        borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
         borderWidth: 1,
       },
     ],
@@ -46,7 +40,7 @@ const GenderFrequencyBarChart = ({ data }) => {
         beginAtZero: true,
       },
       x: {
-        type: "category",
+        type: 'category',
         ticks: {
           beginAtZero: true,
         },
@@ -55,8 +49,8 @@ const GenderFrequencyBarChart = ({ data }) => {
   };
 
   return (
-    <div className="graph">
-      <h2 className="graph-title">Gender Frequency</h2>
+    <div className='graph'>
+      <h2 className='graph-title'>Gender Frequency</h2>
       <Bar
         ref={(el) => {
           chartRef.current = el?.chartInstance;
@@ -65,7 +59,7 @@ const GenderFrequencyBarChart = ({ data }) => {
         options={options}
       />
     </div>
-  );  
+  );
 };
 
 export default GenderFrequencyBarChart;
